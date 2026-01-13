@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a0503; }
+
+
+
+#Hero {
+    background-image: url(Assets/midnightsearch3.jpg);
+    min-height: 600px;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    color: white;
+    flex-direction: column;
+    position:relative;
+    padding: 10px;
+    /* filter: brightness(0.8) contrast(1.2); */
+    
+}
+
+#top-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.95); 
+    backdrop-filter: blur(10px); 
+    color: #f5e6d3; 
+    padding: 20px 40px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 100px;
+    opacity: 50%;
+    white-space: nowrap;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    
+
+
+}
+
+.con-text {
+    font-size: 1.2rem;
+    text-align: left;
+    max-width: 300px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+}
+
+.btn {
+    background: linear-gradient(135deg, #8B4513, #613616);
+    opacity: 60%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(139, 69, 19, 0.4);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(97, 50, 16, 0.6);
+}
+
+
+#main-bdy {
+    min-height:200px;
+    background-color:#1c1c1c;
+    padding: 60px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    
+} 
+
+.img1 img {
+    width: 400px;
+    height: 400px;
+    border: none;
+    border-radius: 50px;
+    /* margin-bottom: 300px;
+
+    */
+    filter: brightness(0.8) contrast(1.2);
+}
+
+.side-t {
+    color: white;
+    margin-left: 200px;
+    /* margin-bottom: 400px; */
+    opacity: 60%;
+
+}
+
+.p-tag {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+
+#third-part {
+    min-height: 150px;
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    
+}
+
+.td-para {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    opacity: 70%;
+    max-height: 20%;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+#last-session {
+    min-height: 500px;
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px;
+    flex-direction: row;
+
+   
+}
+.last-s{ 
+    position: relative;
+    width: 400px;
+    height: 400px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+}
+
+.last-s:hover {
+    transform: translateY(-10px); 
+}
+
+.last-s img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: #1c1c1c;
+    object-fit: cover;
+    filter: brightness(0.8) contrast(1.2);
+
+}
+.last-s img:hover {
+    transform: translateY(-10px);
+ 
+
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#1c1c1c;
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 15px 15px; 
+   
+}
+
+.overlay h3 {
+    font-size: 1.3rem;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    /* background-color: #1c1c1c;
+    color: white; */
+}
+
+.overlay p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.9);
+    /* background-color: #1c1c1c;
+    color: white; */
+}
+
+#about-us {
+    min-height: 200px;
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    color: white;    
+    padding: 60px;
+    align-items: center;
+   gap: 500px;
+   
+}
+.socials img {
+    justify-content: center;
+    max-width: 200px;
+    max-height: 200px;
+}

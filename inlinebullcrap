@@ -1,0 +1,27 @@
+
+    <header>
+        <h1>Welcome to the Chocolate Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Finest Chocolates</h2>
+            <p>Discover our wide range of handcrafted chocolates made from the finest ingredients.</p>
+            <img src="chocolates.jpg" alt="Assorted Chocolates">
+        </section>
+        <section>
+            <h2>Special Offers</h2>
+            <p>Check out our special offers and discounts available this month!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Chocolate Shop. All rights reserved.</p>
+    </footer>
+    
