@@ -24,7 +24,7 @@
     flex-direction: column;
     position:relative;
     padding: 10px;
-    /* filter: brightness(0.8) contrast(1.2); */
+   
     
 }
 
@@ -98,16 +98,12 @@
     height: 400px;
     border: none;
     border-radius: 50px;
-    /* margin-bottom: 300px;
-
-    */
     filter: brightness(0.8) contrast(1.2);
 }
 
 .side-t {
     color: white;
     margin-left: 200px;
-    /* margin-bottom: 400px; */
     opacity: 60%;
 
 }
@@ -172,21 +168,14 @@
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+    cursor: pointer;
     filter: brightness(0.8) contrast(1.2);
+    transition: transform 0.3s ease;
+    box-shadow: #1c1c1c;
 }
 
 
-    /* max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    box-shadow: #1c1c1c;
-    object-fit: cover;
-    filter: brightness(0.8) contrast(1.2); */
-
-/* } */
+   
 .last-s img:hover {
     transform: translateY(-10px);
  
@@ -217,8 +206,7 @@
     font-size: 0.9rem;
     opacity: 0.9;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.9);
-    /* background-color: #1c1c1c;
-    color: white; */
+    
 }
 
 #about-us {
@@ -258,7 +246,7 @@ button {
 
 
 
-/* ========== RESPONSIVE MEDIA QUERIES ========== */
+/*RESPONSIVE MEDIA QUERIES */
 
 @media (max-width: 768px) {
     
@@ -338,19 +326,7 @@ button {
         height: 350px;
         flex-shrink: 0;
     }
-    /* #last-session {
-        flex-direction: row;
-        gap: 30px;
-        justify-content: flex-start;
-        padding: 30px 20px;
-    }
     
-    .last-s {
-        width: 100%;
-        max-width: 350px;
-        height: 350px;
-    }
-     */
     #about-us {
         flex-direction: column;
         gap: 40px;
@@ -452,17 +428,7 @@ button {
         height: 320px;
         flex-shrink: 0;
     }
-    /* #last-session {
-        padding: 20px 15px;
-        gap: 25px;
-    }
-    
-    .last-s {
-        width: 100%;
-        max-width: 300px;
-        height: 300px;
-    } */
-    
+ 
     .overlay h3 {
         font-size: 1.1rem;
     }
