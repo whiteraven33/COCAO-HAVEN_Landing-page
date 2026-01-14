@@ -222,3 +222,22 @@
     max-width: 200px;
     max-height: 200px;
 }
+
+
+input {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #8B4513;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  margin-right: 10px;
+}
+
+button {
+  padding: 12px 30px;
+  background: #8B4513;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
